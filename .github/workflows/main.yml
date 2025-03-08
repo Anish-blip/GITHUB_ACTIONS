@@ -6,7 +6,7 @@ jobs:
    hello:
      runs-on: ubuntu- latest
 
-      steps:
-       -name: print hello world
+      steps :
+      - name: print hello world
          run: "echo hello world"
         
